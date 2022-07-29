@@ -1,4 +1,6 @@
-<html><head><meta http-equiv="Content-Type" content="text/html; charset=windows-1252"><link rel="stylesheet" href="./Login Page_files/web2.css">
+<!--this portion is changed at 29 july 2022 for validation and spacing issue-->
+
+<!--html><head><meta http-equiv="Content-Type" content="text/html; charset=windows-1252"><link rel="stylesheet" href="./Login Page_files/web2.css">
     <title>Login Page</title>
     <link rel="stylesheet" href="css/web2.css"/>
     </head><body>
@@ -13,5 +15,55 @@
                 </form>
             </div>
         </div>
+    </body>
+</html-->
+
+<html>
+    <link rel="stylesheet" href="css/login.css"/>
+    <script src="javascript/login.js"></script>
+    <body>
+        <div class="entireContainer">
+                <div class="form">
+                    <div class="formElements">
+                        <div class="formHeader">
+                            <span>Login</span>
+                        </div>
+                        <div class="formTextFields">
+                            <div class="formTextField1">
+                                <div class="textField1">
+                                    <div class="textLabel">
+                                        <label>Username</label>
+                                    </div>
+                                    <div class="textBox1">
+                                        <input id="userIdTextBox" type="text">
+                                    </div>
+                                    <div class="TextErr">
+                                        <span id="userIdErr"></span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="formTextField2">
+                                <div class="textField2">
+                                    <div class="passLabel">
+                                        <label>Password</label>
+                                    </div>
+                                    <div class="textBox2">
+                                        <input id="passwordTextBox" type="password">
+                                    </div>
+                                    <div class="passwordErr">
+                                        <span id="passErr"></span>
+                                    </div>
+                                </div>     
+                            </div>
+                        </div>
+                        <div class="formButtons">
+                            <div class="formButton1">
+                                <button type="clear" id="loginBtn" onclick="validateUserField(),validatePassField()">Login</button>
+                            </div>
+                            
+                        </div>
+                    </div>
+                </div>
+            </div>
     </body>
 </html>

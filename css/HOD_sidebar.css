@@ -31,6 +31,10 @@ html,body{
     align-content: center;
     justify-content: center;
 }
+.headerText>span{
+    color: #4CAF50;
+    text-transform: uppercase;
+}
 .headerLogout{
     width: 20%;
     height: 100%;
@@ -205,4 +209,9 @@ h1{
 }
 form{
     margin-block-end: 0 !important;
+}
+.form>span{
+    color: #4CAF50;
+    text-transform: uppercase;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }

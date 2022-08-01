@@ -127,7 +127,7 @@ input{
 }
 button{
     height: 50%;
-    width: 100%;
+    width: 40%;
     outline: 0;
     padding: 10px;
     background: rgba( 255, 255, 255, 0.3 );
@@ -136,6 +136,9 @@ button{
     -webkit-backdrop-filter: blur( 3.5px );
     border-radius: 10px;
     border: 1px solid rgba( 255, 255, 255, 0.18 );
+}
+button:hover{
+    opacity: 0.6;
 }
 label{
     font-weight: bolder;
@@ -151,23 +154,18 @@ label{
 #userIdTextBox{
     color: white;
     font-family: helvetica;
-    font-size: small;
-    font-weight: bolder;
 }
 #passwordTextBox{
-    color: white;
-    font-family: helvetica;
-    font-size: small;
-    font-weight: bolder;    
+    color: white;   
 }
 #userIdErr{
-    color:whitesmoke;
-    font-size: small;
+    color:rgb(255, 0, 0);
+    font-size: 14px;
     font-weight: bold;
 }
 #passErr{
-    color:whitesmoke;
-    font-size: small;
+    color:red;
+    font-size: 14px;
     font-weight: bold;
 }
 /*

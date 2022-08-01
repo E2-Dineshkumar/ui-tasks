@@ -1,26 +1,7 @@
-<!--this portion is changed at 29 july 2022 for validation and spacing issue-->
-
-<!--html><head><meta http-equiv="Content-Type" content="text/html; charset=windows-1252"><link rel="stylesheet" href="./Login Page_files/web2.css">
-    <title>Login Page</title>
-    <link rel="stylesheet" href="css/web2.css"/>
-    </head><body>
-        <div class="login-form">
-            <div class="form">
-                <form>
-                    <div class="login-header"><b>LOGIN PAGE</b></div>
-                    <input type="text" placeholder="username" required="">
-                    <input type="password" placeholder="password" required="">
-                    <button><a href="side.html" target="_blank">LOGIN</a></button>
-                    <p class="message">Not registered? <a href="#L1">Create an account</a></p>
-                </form>
-            </div>
-        </div>
-    </body>
-</html-->
-
 <html>
     <link rel="stylesheet" href="css/login.css"/>
     <script src="javascript/login.js"></script>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@48,400,0,0" />
     <body>
         <div class="entireContainer">
                 <div class="form">
@@ -32,10 +13,17 @@
                             <div class="formTextField1">
                                 <div class="textField1">
                                     <div class="textLabel">
-                                        <label>Username</label>
+                                        <div class="user-icon-Text">
+                                            <div class="userLabelIcon">
+                                                <span id="userIcon" class="material-symbols-rounded">person</span>
+                                            </div>
+                                            <div class="userLabel">
+                                                <label>Username</label>
+                                            </div>
+                                        </div>
                                     </div>
                                     <div class="textBox1">
-                                        <input id="userIdTextBox" onblur="validateUserField()" type="text">
+                                        <input id="userIdTextBox" onkeyup="validateUserField()" type="text">
                                     </div>
                                     <div class="TextErr">
                                         <span id="userIdErr"></span>
@@ -45,10 +33,17 @@
                             <div class="formTextField2">
                                 <div class="textField2">
                                     <div class="passLabel">
-                                        <label>Password</label>
+                                        <div class="pass-icon-Text">
+                                            <div class="passLabelIcon">
+                                                <span id="passIcon" class="material-symbols-rounded">key</span>
+                                            </div>
+                                            <div class="passTextLabel">
+                                                <label>Password</label>
+                                            </div>
+                                        </div>
                                     </div>
                                     <div class="textBox2">
-                                        <input id="passwordTextBox" onblur="validatePassField()" type="password">
+                                        <input id="passwordTextBox" onkeyup="validatePassField()" type="password">
                                     </div>
                                     <div class="passwordErr">
                                         <span id="passErr"></span>

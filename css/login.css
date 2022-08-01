@@ -75,6 +75,21 @@ html,body{
     width: 100%;
     justify-content: left;
 }
+.user-icon-text{
+    height: 100%;
+    width: 100%;
+    flex-direction: row;
+}
+.userLabelIcon{
+    width: 5%;
+    height: 100%;
+    justify-content: left;
+}
+.userLabel{
+    width: 95%;
+    height: 100%;
+    justify-content: left;
+}
 .textBox1{
     height: 70%;
     width: 100%;
@@ -95,6 +110,19 @@ html,body{
 .passLabel{
     height: 20%;
     width: 100%;
+}
+.pass-icon-Text{
+    height: 100%;
+    width: 100%;
+    flex-direction: row;
+}
+.passLabelIcon{
+    width: 5%;
+    height: 100%;
+}
+.passTextLabel{
+    width: 95%;
+    height: 100%;
     justify-content: left;
 }
 .textBox2{
@@ -167,6 +195,12 @@ label{
     color:red;
     font-size: 14px;
     font-weight: bold;
+}
+#userIcon{
+    color: whitesmoke;
+}
+#passIcon{
+    color: whitesmoke;
 }
 /*
 #clearBtn{

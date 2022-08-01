@@ -22,7 +22,7 @@ function validateUserField(){
     else{
         document.getElementById('userIdErr').innerHTML=''
     }
-    console.log(userId);
+    console.log('userId: ',userId);
 }
 
 function validatePassField(){
@@ -34,5 +34,5 @@ function validatePassField(){
     else{
         document.getElementById('passErr').innerHTML="";
     }
-    console.log(password);
+    console.log('password: ',password);
 }

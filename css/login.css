@@ -20,7 +20,7 @@ html,body{
 }
 .form{
     height: 50%;
-    width: 50%;
+    width: 30%;
 /*    flex-direction: column;*/
     padding: 40px; 
     background: rgba( 255, 255, 255, 0.35 );
@@ -178,6 +178,7 @@ label{
     text-align: center;
     font-size: large;
     font-weight: bold;
+    cursor: pointer;
 }
 #userIdTextBox{
     color: white;
@@ -188,12 +189,12 @@ label{
 }
 #userIdErr{
     color:rgb(255, 0, 0);
-    font-size: 14px;
+    font-size: 18px;
     font-weight: bold;
 }
 #passErr{
     color:red;
-    font-size: 14px;
+    font-size: 18px;
     font-weight: bold;
 }
 #userIcon{

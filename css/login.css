@@ -189,12 +189,12 @@ label{
 }
 #userIdErr{
     color:rgb(255, 0, 0);
-    font-size: 14px;
+    font-size: 18px;
     font-weight: bold;
 }
 #passErr{
     color:red;
-    font-size: 14px;
+    font-size: 18px;
     font-weight: bold;
 }
 #userIcon{

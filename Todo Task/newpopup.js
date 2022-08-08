@@ -9,7 +9,7 @@ form.addEventListener("submit", (e) => {
   });
   let formValidation = () => {
     if (uInput.value === "" | deptInput.value === "") {
-      msg.innerHTML = "*Field Cannot be Empty";
+      msg.innerHTML = "*Fields Cannot be Empty";
     } else {
         msg.innerHTML = "";
         acceptData();
@@ -22,7 +22,7 @@ form.addEventListener("submit", (e) => {
     console.log(data);
     createFunc();
    };
-  localStorage.setItem("data", JSON.stringify(data));
+  //localStorage.setItem("data", JSON.stringify(data));
   //let storedData=JSON.parse(localStorage.getItem("data"));
   console.log(data);
   let createFunc = () => {

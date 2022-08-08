@@ -19,6 +19,12 @@ html,body {
     width: 100%;
     flex-direction: column;
 }
+.entireContent{
+    height:80%;
+    width:80%;
+    border-radius:15px;
+    background:#474747;
+}
 .headingText{
     height: 10%;
     width: 100%;
@@ -118,6 +124,11 @@ html,body {
 .postContainer{
     color: #ffffff;
     width: 100%;
+    background:#cc527a;
+}
+.postContainerStatic{
+    color: #ffffff;
+    width: 100%;
     background:#e8175d;
 }
 ::placeholder{
@@ -157,14 +168,6 @@ button{
 .material-symbols-outlined{
     color: #ffffff;
 }
-/*
-main colors
-red #be3144
-dark gray #363636
-medium gray #474747
-light gray #ffffff
-*/
-
 /*
 theme2
 light grey #ffffff
